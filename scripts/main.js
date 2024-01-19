@@ -17,6 +17,7 @@ $('.singer__name').on('click', function () {
     details.slideToggle(500,
         () => $(this).css('pointer-events', 'unset')
     )
+    
     siblings.slideUp(500)
 })
 

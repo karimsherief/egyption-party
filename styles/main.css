@@ -129,8 +129,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 main {
-    background-image: var(--overlay),
-        url('../images/hero.jpg');
+    background: var(--overlay),
+        url('../images/hero.jpg') center no-repeat;
     background-size: cover;
     height: 72vh;
     display: flex;
@@ -173,8 +173,8 @@ main {
 /* Count down */
 
 .count {
-    background-image: var(--overlay),
-        url('../images/event.jpg');
+    background: var(--overlay),
+        url('../images/event.jpg') center no-repeat;
     background-size: cover;
     padding-block: 100px;
     color: #fff;
